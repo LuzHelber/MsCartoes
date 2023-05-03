@@ -15,7 +15,7 @@ public class ClienteCartao {
     private Long id;
     private String cpf;
     @ManyToOne
-    @JoinColumn(name = "id_cartap")
+    @JoinColumn(name = "id_cartao")
     private Cartao cartao;
     private BigDecimal limite;
 }
